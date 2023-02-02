@@ -1,0 +1,77 @@
+.hero_section {
+    background-image: url('../navbar/camera.jpg');
+    min-height: 85vh;
+    /* width: 100%; */
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.text_container {
+    color: white;
+    max-width: 900px;
+
+    margin: 0 auto;
+    /* padding-top: 64px;
+    padding-left: 16px; */
+    padding: 5vmax;
+
+}
+
+.lg_text {
+    font-size: 50px;
+    font-weight: 400;
+}
+
+.sm_text {
+    font-size: 15px;
+    font-weight: 400;
+}
+
+.search-input {
+
+    margin-top: 15px;
+
+    width: 100%;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    overflow: hidden;
+
+    font-size: 1.1vmax;
+    outline: none;
+    color: rgb(61, 61, 61);
+    font-weight: 100;
+    background-color: rgb(238, 238, 238);
+    /* border-radius: 2vmax; */
+
+    /* margin-right: 6vmax; */
+    padding: 1.5vmax;
+}
+.bottom-div{
+    padding: 1vmax;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 40px;
+}
+.read{
+    color: #767676;
+}
+
+/* 
+@media only screen and (max-width: 600px) {
+    .search-input {
+      background-color: lightblue;
+    }
+  } */
+
+  button{
+   
+    margin-left: 20px;
+    border: none;
+    border-top-left-radius: 2vmax;
+    border-bottom-left-radius: 2vmax;
+    
+}

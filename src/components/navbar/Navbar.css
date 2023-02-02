@@ -1,0 +1,112 @@
+.nav{
+    z-index: 1000;
+    background-color: white;
+    padding: 0.2vmax;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    overflow: hidden;
+    align-items: center;
+    /* border-bottom: 1px solid rgba(43, 43, 43, 0.137); */
+}
+@media screen and (max-width: 650px) {
+  a{
+    display: none;
+  }
+    }
+
+.nav-2{
+    z-index: 1000;
+    background-color: white;
+    padding: 0.2vmax;
+    overflow: hidden;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    border-bottom: 1px solid rgba(43, 43, 43, 0.137);
+}
+
+.navlinks{
+    color: #767676;
+    text-decoration: none;
+    margin: 1vmax 1.2vmax;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 500;
+    font-size: 1vmax;
+   
+}
+
+.navlinks:hover{
+    color: black;
+    text-decoration: none;
+}
+
+.searchbox{
+    /* position: relative; */
+   left:5vmax;
+   display: flex;
+   justify-content: end;
+ 
+}
+
+.searchbox >input{
+    border: none;
+    /* border-bottom: 1px solid rgba(128, 128, 128, 0.76); */
+    width: 30vmax;
+ 
+    font-size: 1.1vmax;
+    outline: none;
+    color:rgb(61, 61, 61);
+    font-weight: 100;
+    background-color: rgb(238, 238, 238);
+    /* border-radius: 2vmax; */
+    border-top-right-radius: 2vmax;
+    border-bottom-right-radius: 2vmax;
+
+    /* margin-right: 6vmax; */
+    padding: 0.9vmax;
+    
+  }
+ 
+  .searchbox > svg{
+    fill: rgb(61, 61, 61);
+
+
+}
+
+.btn-photo{
+    background-color: white;
+    height: 2.5vmax;
+    border-color: gray;
+}
+
+
+
+.btn-svg{
+    background-color: white;
+  border: none;
+  fill:#767676;;
+}
+.btn-svg:hover{
+    fill: black;
+}
+.btn-photo{
+    border: none;
+    
+}
+
+
+button{
+   
+    margin-left: 20px;
+    border: none;
+    border-top-left-radius: 2vmax;
+    border-bottom-left-radius: 2vmax;
+    
+}
+svg{
+    fill:  black;
+  
+
+}
